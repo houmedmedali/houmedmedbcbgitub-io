@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!---titre--->
+    <title>Magasin BCB (BouniCom Bureautique)</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <!---site de navigation--->
+    <nav>
+      <a href="../index.html">Accueille</a>
+      <a href="Historique.html">Historique</a>
+      <a href="Apropos.html">Apropos</a>
+      <a href="/Contact.html">Contact</a>
+      <a href="Gallery.html">Gallery</a>
+    </nav>
+    <!---Header--->
+    <div class="Guide">
+      <div id="mylogo">
+        <div><img src="../image/logo.svg" height="80" width="80" /></div>
+        <div><img src="../image/Flag_of_Djibouti.svg" height="80" width="80" /></div>
+      </div>
+
+      <h1>Bienvenu magasin B C B BouniCom Bureautique</h1>
+      <input
+      type="search"
+      id="search"
+      placeholder="recherche"
+      value=""
+      onchange="ouvrirPage()"
+    />
+
+    <input
+      type="button"
+      id="button"
+      onclick="ouvrirPage()"
+      value="chercher"
+    />
+    
+      </div>
+      <h4 class="placeholder">Contact</h2>
+      <p>Trouvez-nous à une adresse à un endroit.</p>
+      <img src="../image/carte.jpg" class="w3-image" style="width:100%">
+      <p><span class="w3-tag">pour votre information!</span> Nous proposons un service traiteur complet pour tout événement, petit ou grand. Nous comprenons vos besoins et nous vous propose de matariels qui vous faire  satisfer les plus grands critères de tous, à la fois l'apparence et vous sentiment.</p>
+      <p><strong>Réserve</strong> une commande, demandez vos besoin du jour ou envoyez-nous simplement un message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="store-enter store-padding store-embroidery" type="text" placeholder="Nom" required name="Nom"></p>
+        <p><input class="store-enter store-embroidery" type="number" placeholder="combien de gens" required name="gens"></p>
+        <p><input class="store-enter store-padding store-embroidery" type="datetime-local" placeholder="Date and time" required name="date" value="2021-08-11 22:00"></p>
+        <p><input class="store-enter store-padding store-embroidery" type="text" placeholder="Message \ Exigence particulières" required name="Message"></p>
+        <p><button class="store-button store-black" type="soumettre">LAISSEZ VOS MESSAGES</button></p>
+      </form>
+    </div>
+  </div>
+  
+                  
+        <!--Footer-->
+          <div id="footer">
+              rejoignez a cette adresse: <a href="mailto:email">houmedmed371@gmail.com</a> <br>
+            Copyright © Magasin BCB | 2021. Tous droits réservé.
+            <p><strong> MAGASIN</strong> <a href="https://www.magasinbcb.com/magasincss/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green"><strong>B C B</strong></a></p>
+            
+          </div>
+  </body>
+</html>

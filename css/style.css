@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(110, 110, 190);
+}
+.Guide {
+  background-color: rgb(11, 11, 235);
+  text-align: center;
+  text-decoration: underline;
+}
+#mylogo {
+  display: flex;
+  justify-content: space-between;
+}
+.his {
+  text-align: center;
+}
+#footer {
+  background-color: green;
+  text-align: center;
+  body {
+    background-color: blue;
+  }
+  
+  
+
+  
